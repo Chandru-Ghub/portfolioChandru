@@ -14,7 +14,7 @@ app.get('/get',(req,res)=>{
 })
 
 
-app.get('/get',(req,res)=>{
+app.get('/gettu',(req,res)=>{
         res.json('working ku')
 })
 //input data
