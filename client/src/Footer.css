@@ -1,0 +1,140 @@
+.footer{
+    background-color:rgb(9, 13, 33);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.imgicon{
+    width: 55px;
+    /* background-color: rgb(233, 233, 239); */
+    border-radius: 15px;
+    opacity: .6;
+    
+}
+.ftnav{
+    color: white;
+    opacity: .6;
+}
+.ftnav:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgicon:hover{
+    opacity: .4;
+    /* background-color: red; */
+}
+.in:hover{
+    opacity: .4;
+    /* background-color: red; */
+}
+.in{
+    width: 30px;
+    /* background-color: rgb(233, 233, 239); */
+    opacity: .6;
+    
+}
+.iconslogo{
+    display: flex;
+    column-gap:5px;
+    align-items: center;
+    /* background-color: rgb(56, 46, 46); */
+    padding-left: 80px;
+
+}
+.logoname{
+    color: rgb(166, 184, 163);
+    margin: auto;
+    margin-top: 50px
+    /* background-color: rgb(26, 0, 128); */
+}
+.navs2{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 10px;
+    color: rgb(166, 184, 163);
+}
+.imprint{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: rgb(166, 184, 163);
+    font-size: 13px;
+    /* background-color: green; */
+    padding-top: 10px;
+    
+}
+.imprint:hover{
+    opacity: .8;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    color: rgb(166, 184, 163);
+    font-size: 13px;
+}
+
+
+.line2{
+    height: 10px;
+    width:50%;
+    margin: auto;
+    border-bottom: 1px solid rgb(103, 104, 103);  
+    opacity: .4;
+    margin: 30px auto;  
+}
+.line1{
+    height: 10px;
+    width:80%;
+    margin: auto;
+    border-bottom: 1px solid rgb(103, 104, 103);  
+    opacity: .5;
+    margin: 30px auto;  
+}
+.line{
+    height: 10px;
+    width:100%;
+    margin: auto;
+    border-bottom: 1px solid rgb(103, 104, 103);  
+    opacity: .4;
+    margin: 50px 0px ;  
+}
+.socialMedia{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+/* spin */
+
+
+/* .App-logo {
+    height: 10vmin;
+    pointer-events: none;
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(20deg);
+    }
+  } */

@@ -1,0 +1,179 @@
+.contact{
+    height: 100vh;
+    /* background-color: green; */
+    padding: 40px;
+
+}
+.formsui{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    margin-top: 30px;
+    
+}
+.inp{
+    height: 50px;
+    background: transparent;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    /* box-shadow: 1px 0px 2px 1px rgb(73, 234, 24); */
+    border-radius: 3px;
+    border: 1px solid  rgb(73, 234, 24);
+    color: white;
+}
+
+.ta{
+    padding-top: 10px;
+    resize:vertical;
+    overflow: auto;
+}
+
+.inputerr{
+    transition: .5s;
+    background: transparent;
+    outline: none;
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+}
+
+.hit{
+    height: 40px;
+    background-color: rgb(53, 241, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-top:20px ;
+    font-size: 15px;
+}
+
+.hit:hover{
+    background-color: white;
+    /* border-radius: 50px; */
+}
+.hit:active{
+    transform: scale(1.01);
+}
+.err{
+    /* margin-bottom: 20px; */
+    font-size: 15px;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+.eri{
+    color: red;
+    font-size: 18px;
+}
+
+
+.contactdiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-top: 80px;
+    background-color:rgb(9, 13, 33);
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 100vh; */
+
+}
+
+.infocontact{
+    /* background-color: blue; */
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contact{
+    background-color: white;
+}
+
+.msg{
+    color: white;
+    font-size: 20px;
+}
+.cname{
+    color: rgb(53, 241, 53);
+    font-size: 25px;
+}
+
+.mailicon{
+    color:  rgb(53, 241, 53);
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.mymail{
+    color: rgb(121, 125, 121);
+    font-style: italic;
+
+}
+.mymail:hover{
+    text-decoration: underline;
+    color: rgb(53, 241, 53);
+}
+
+/* forms */
+
+.myforms{
+    /* background-color: red; */
+    width: 50%;
+    min-width:470px;
+
+}
+
+.formsui{
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    margin-top: 30px;
+    /* min-width:500px; */
+    /* height: 400px; */
+}
+.label{
+    color: white;
+    margin-top: 30px;
+}
+.lb1{
+    margin-top: 0px;
+}
+
+.sentmsg{
+    /* background-color: red; */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.sent{
+    background: transparent;
+    font-size: 200px;
+    color: rgb(53, 241, 53);
+    /* background-color: white; */
+    margin-left: 100px;
+}
+.sucess{
+    color: rgb(53, 241, 53);
+    font-size: 20px;
+}
+.touch{
+    color: rgb(74, 78, 74);
+    font-size: 40px;
+}

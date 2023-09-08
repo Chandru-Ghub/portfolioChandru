@@ -1,0 +1,108 @@
+.quote{
+    font-size: 90px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    /* background: red; */
+    transform: rotate3d(0, 1, 0, 80deg);
+
+}
+.trs{
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    padding: 30px;
+    background-color: rgb(6, 152, 6);
+    position: sticky;
+    top: 70px;
+    right: 0;
+    left: 0;
+    z-index: -50;
+    display: flex;
+    justify-content: center;
+}
+
+.projects{
+    color: white;
+    background-color:rgb(9, 13, 33);
+    padding: 20px;
+
+}
+.thumbnail{
+    width: 460px;
+    position: relative;
+    display: block;
+   
+}
+.thumbnailContainer{
+    display: flex;
+    row-gap: 15px;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    background-color:rgba(121, 127, 154, 0.215);
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.thumbnail:hover{
+
+    /* width: 450px;
+    height: 250px;  */
+    /* opacity: .5;*/
+}
+.imgcontainer{
+    position: relative;
+    /* display: blocks; */
+}
+.imgcontainer::after{
+    position: absolute;
+    content: '';
+    color: rgb(53, 241, 53);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.856);
+    /* content: ''; */
+    transform: scale(0);
+    /* display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(23, 187, 23);
+    transform-origin: left; */
+    /* transition: transform 300ms; */
+
+
+}
+.imgcontainer:hover::after  {
+    /* background-color: red; */
+    transform: scale(1);
+    /* transform-origin: right; */
+}
+.view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 18px;
+    background-color:  rgb(53, 241, 53);;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(67, 63, 63);
+    font-weight: 600;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    >a{
+        color: rgb(27, 26, 26);
+    }
+}
+.view a:hover{
+    opacity: .6;
+}
+.imgcontainer:hover .view{
+    opacity: 1;
+    z-index: 1;
+}

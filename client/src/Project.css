@@ -1,0 +1,48 @@
+.project{
+    height: 100vh;
+    background-color:rgb(9, 13, 33);
+    padding-left: 70px;
+}
+.myworks{
+    color: rgb(53, 241, 53);
+    padding-top: 150px;
+    text-align: center;
+}
+.pro15{
+    color: rgb(74, 78, 74);
+    text-align: center;
+    font-size: 35px;
+}
+.sections{
+    color: rgb(0, 0, 0);
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: center;
+
+}
+.card{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(53, 241, 53);
+
+}
+/* .card:hover{
+    transform: rotateY(90deg);
+} */
+
+.back{
+    background: none;
+    padding: 5px;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    color:  rgb(53, 241, 53);
+    border: none;
+}
+.back:hover{
+  opacity: .5;
+}

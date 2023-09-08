@@ -1,0 +1,209 @@
+.cover{
+   padding: 40px;
+   width: 50%;
+   min-width: 300px;
+ 
+}
+.about{
+    background-color:rgb(9, 13, 33);
+    /* height: 100vh; */
+    color: rgb(252, 252, 252);
+    /* border-top: 2px solid red; */
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 35px;
+ 
+    
+    
+  }
+  .marque{
+    border: 2px solid rgb(53, 241, 53);
+    color: rgb(53, 241, 53);
+    /* s */
+    background-color:  rgb(53, 241, 53);
+    display: flex;
+    column-gap: 20px;
+    width: 300px;
+    position: relative;
+  }
+ 
+  .techs{
+    /* opacity: 0; */
+    display: flex;
+    /* padding: 5px; */
+    align-items: center;
+    column-gap: 20px;
+    width: 100%;
+    background-color:rgb(2, 6, 24);
+    >img{
+        width: 50px;
+        /* background-color: red; */
+    }
+
+    .marque:hover{
+        background-color: white;
+    }
+    >.html2{
+        width: 36px;
+    }
+    >.javascript2{
+        width: 40px;
+    }
+    >.mongo{
+        width: 100px;
+        height: 52px;
+    }
+    >.express2{
+        width: 110px;
+    }
+    >.node2{
+        width: 50px;
+    }
+    >.css2{
+        width: 48px;
+    }
+  }
+ .end{
+    margin-right: 20px;
+ }
+ .begin{
+    margin-left: 20px;
+ }
+  .abouth3{
+    color: rgb(53, 241, 53);
+  }
+
+.im{
+    width: 200px;
+    background-color: green;
+}
+
+.techs:hover{
+   opacity: .9;
+}
+
+/* .aos{
+    background-color: green;
+    height: 500px;
+    width: 500px;
+} */
+
+.cubes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(9, 13, 33); */
+    /* height: 100vh; */
+    flex-direction: column;
+    margin-bottom: 50px;
+   /* background: red; */
+    
+}
+.express{
+    background-color: rgba(233, 150, 42, 0.948);
+    width: 250px;
+    height: 250px;
+    color: rgb(9, 13, 33);
+   
+}
+.bootstrap{
+    background-color: rgb(211, 17, 208);
+    width: 250px;
+    height: 250px;
+    color:  rgb(9, 13, 33);
+    transform: rotate(180deg);
+}
+.node{
+    background-color: rgb(187, 255, 0);
+    width: 250px;
+    height: 250px;
+    color:  rgb(9, 13, 33);
+}
+.mongoDB{
+    background-color: rgb(14, 176, 9);
+    width: 250px;
+    height: 250px;
+    color:  rgb(9, 13, 33);
+    transform: rotate(180deg);
+
+
+}
+.react{
+    background-color: rgb(0, 136, 255);
+    width: 250px;
+    height: 250px;
+    color:  rgb(9, 13, 33);
+    >.imgre{
+        padding: 20px;
+    }
+}
+.hcj{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    color: rgb(9, 13, 33);
+}
+.sp{
+   border: 3px solid  rgb(9, 13, 33);
+   background-color: rgb(53, 241, 53);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+   border-radius: 5px;
+   padding: 35px;
+   opacity: .6;
+    >img{
+        display: none;
+    }
+  
+}
+.sp:hover{
+    background-color:rgba(237, 233, 233, 0.788);
+    >img{
+        display: block;
+    }
+    transform: rotate(10deg);
+    /* transform: scale(1.2); */
+    opacity: 1;
+}
+/* .sp:active{
+    background-color:rgba(237, 233, 233, 0.788);
+    width: 250px;
+    >img{
+        display: block;
+    }
+    transform: rotate(10deg);
+    transform: scale(1.2);
+    opacity: 1;
+} */
+
+.cubeim{
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(53, 241, 53);
+   
+}
+.role{
+    animation: x-axis-animation 3s ease-in-out 0s infinite alternate;
+    margin-top: 40px;
+    /* margin-bottom: 30px; */
+}
+.rtt{
+    /* background-color: red; */
+    display: flex;
+    column-gap: 5px;
+}
+
+
+@keyframes x-axis-animation {
+    from {transform: rotateX(20deg)}
+    to {transform: rotateX(-5deg)}
+  }
