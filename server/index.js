@@ -27,7 +27,7 @@ app.post('/formdata',(req,res)=>{
              auth:{
 
                  user: 'chandrumech455@gmail.com',
-                 pass: mail_key
+                 pass: process.env.mail_key
              }
 
          });

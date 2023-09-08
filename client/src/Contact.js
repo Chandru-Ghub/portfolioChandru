@@ -32,7 +32,7 @@ const Contact = () => {
             resetForm({values :''})
            const {name,email,message}= values;
            console.log(name,email,message);
-        axios.post('http://localhost:3800/formdata',{name,email,message})
+        axios.post('http://localhost:3300/formdata',{name,email,message})
         .then(msg => {console.log(msg)
             if(msg.data =='data added') setShowmail(!showmail)
         })
