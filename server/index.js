@@ -14,13 +14,10 @@ app.get('/get',(req,res)=>{
 })
 
 
-app.get('/gettu',(req,res)=>{
-        res.json('working ku')
-})
 //input data
 app.post('/formdata',(req,res)=>{
         const{name,email,message} = req.body
-        console.log(message)
+        // console.log(message)
         userSchema.create(req.body)
         .then(result => {res.json('data added')
 
@@ -57,7 +54,7 @@ app.post('/formdata',(req,res)=>{
         
         
         )
-        .catch(err => res.json({name,email,message,pass}))
+        .catch(err => res.json(err))
        
 })
 
