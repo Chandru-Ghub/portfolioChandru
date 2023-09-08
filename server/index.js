@@ -4,7 +4,7 @@ const cors = require('cors')
 const app = express();
 const dotenv = require('dotenv').config()
 const userSchema = require('./model/userSchema')
-const PORT = process.env.Port || 3000;
+const PORT =  4000;
 
 app.use(express.json())
 app.use(cors())
@@ -28,7 +28,7 @@ app.post('/formdata',(req,res)=>{
              auth:{
 
                  user: 'chandrumech455@gmail.com',
-                 pass: process.env.mail_key
+                 pass:'xuxovtfkvomairak'
              }
 
          });
@@ -59,7 +59,7 @@ app.post('/formdata',(req,res)=>{
 })
 
 //connecting the server to Data base
-mongoose.connect(process.env.DataBase)
+mongoose.connect('mongodb+srv://chandruinfo455:fBziCs1GHica2J2X@cluster0.iv4dkzt.mongodb.net/personalPortfolio?retryWrites=true&w=majority')
 .then(result=>console.log('Database connected sucessfully'))
 .catch(err => console.log(err))
 
