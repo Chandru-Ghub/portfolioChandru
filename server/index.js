@@ -13,6 +13,10 @@ app.get('/get',(req,res)=>{
     res.send("i'm working")
 })
 
+
+app.get('/get',(req,res)=>{
+        res.json('working ku')
+})
 //input data
 app.post('/formdata',(req,res)=>{
         const{name,email,message} = req.body
