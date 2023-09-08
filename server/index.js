@@ -53,7 +53,7 @@ app.post('/formdata',(req,res)=>{
         
         
         )
-        .catch(err => res.json(err))
+        .catch(err => res.json('workagla'))
        
 })
 
