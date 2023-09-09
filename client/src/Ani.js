@@ -1,8 +1,5 @@
 import * as React from 'react';
 import Cube from 'react-3d-cube';
-import html from './logos/html.png'
-import css from './logos/css.png'
-import javascript from './logos/javascript.png'
 import react from './logos/react.png'
 import mongo from './logos/mongodb.png'
 import node from './logos/nodejs.png'
